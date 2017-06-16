@@ -4,6 +4,7 @@ require 'nokogiri'
 require 'Html2Docx/version'
 require 'Html2Docx/initialization'
 require 'Html2Docx/content_types'
+require 'Html2Docx/document'
 
 module Html2Docx
   ROOT_PATH = File.expand_path(File.join(File.dirname(__FILE__), '../'))
@@ -13,8 +14,10 @@ module Html2Docx
     # Initialization
     initialization = Initialization.new(options)
     content_types  = ContentTypes.new(options)
+    document       = Document.new(options)
 
     # Render
+    document.render
     content_types.render
   end
 

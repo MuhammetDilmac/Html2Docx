@@ -36,10 +36,10 @@ module Html2Docx
 
     def add_child(child)
       node = Nokogiri::XML::Node.new('Default', @content_type)
-      node['Extension'] = child.fetch(:extension)
-      node['ContentType'] = child.fetch(:content_type)
+      node['Extension'] = child.fetch(:extension, '')
+      node['ContentType'] = child.fetch(:content_type, '')
 
-      @types.add_child(node)
+      @types << node
     end
   end
 end
