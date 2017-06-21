@@ -3,14 +3,17 @@ module Html2Docx
     def initialize(options = {})
       @document_file = File.join(TEMP_PATH, 'word', 'document2.xml')
       @document = File.open(@document_file) { |f| Nokogiri::XML(f) }
-      @body = @document.css('w:body')
+      @body = @document.at_xpath('//w:body')
       @contents = []
 
       initial_body
+      add_html(options[:html])
     end
 
     def initial_body
-      @body.remove
+      @body.children.each do |child|
+        child.remove
+      end
     end
 
     def add_html(html)
@@ -22,7 +25,9 @@ module Html2Docx
         case element.name
           when 'p'
             # Add paragraph
-            @contents.push ''
+            paragraph = DocumentObjects::Paragraph.new(@document, nil)
+            paragraph.add_paragraph(element)
+            @contents.push paragraph.render
           when 'table'
             # Add table
             @contents.push ''
@@ -37,21 +42,54 @@ module Html2Docx
 
       @body << sectPr
 
-      File.open(@document_file, 'w') { |f| f.write(@document.to_xml) }
+      @document.root.add_child(@body)
+
+      File.open(@document_file, 'w') { |f| f.write(Helpers::NokogiriHelper.to_xml(@document)) }
     end
 
     def sectPr
-      Nokogiri::XML::Builder.new do |xml|
-        xml.send('w:sectPr') do
-          xml.send('w:pgSz', { 'w:w' => '12240', 'w:h' => '15840' })
-          xml.send('w:pgMar', {
-                     'w:top' => '1440', 'w:right' => '1440', 'w:bottom' => '1440', 'w:left' => '1440',
-                     'w:header' => '720', 'w:footer' => '720', 'w:gutter' => '0'
-                   })
-          xml.send('w:cols', { 'w:space' => '720' })
-          xml.send('w:docGrid', { 'w:linePitch' => 360 })
-        end
-      end.root
+      root = Nokogiri::XML::Node.new('w:sectPr', @document)
+      root.add_child(pgSz)
+      root.add_child(pgMar)
+      root.add_child(cols)
+      root.add_child(docGrid)
+
+      root
+    end
+
+    def pgSz
+      pgSz = Nokogiri::XML::Node.new('w:pgSz', @document)
+      pgSz['w:w'] = '12240'
+      pgSz['w:h'] = '15840'
+
+      pgSz
+    end
+
+    def pgMar
+      pgMar = Nokogiri::XML::Node.new('w:pgMar', @document)
+      pgMar['w:top'] = '1440'
+      pgMar['w:right'] = '1440'
+      pgMar['w:bottom'] = '1440'
+      pgMar['w:left'] = '1440'
+      pgMar['w:header'] = '720'
+      pgMar['w:footer'] = '720'
+      pgMar['w:gutter'] = '0'
+
+      pgMar
+    end
+
+    def cols
+      cols = Nokogiri::XML::Node.new('w:cols', @document)
+      cols['w:space'] = '720'
+
+      cols
+    end
+
+    def docGrid
+      docGrid = Nokogiri::XML::Node.new('w:docGrid', @document)
+      docGrid['w:linePitch'] = '360'
+
+      docGrid
     end
   end
 end

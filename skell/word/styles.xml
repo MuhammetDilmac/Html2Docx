@@ -1,399 +1,429 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="rId117" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image66.png"/>
-  <Relationship Id="rId21" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart3.xml"/>
-  <Relationship Id="rId42" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://gdataonline.com/qkhash.php?mode=txt&amp;hash=21232f297a57a5a743894a0e4a801fc3"
-                TargetMode="External"/>
-  <Relationship Id="rId63" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image15.png"/>
-  <Relationship Id="rId84" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image35.png"/>
-  <Relationship Id="rId138" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image85.png"/>
-  <Relationship Id="rId159" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image102.png"/>
-  <Relationship Id="rId170" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:martha.wheeler@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId191" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart16.xml"/>
-  <Relationship Id="rId107" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image56.png"/>
-  <Relationship Id="rId11" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramQuickStyle"
-                Target="diagrams/quickStyle1.xml"/>
-  <Relationship Id="rId32" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramData"
-                Target="diagrams/data5.xml"/>
-  <Relationship Id="rId53" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image10.png"/>
-  <Relationship Id="rId74" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image25.png"/>
-  <Relationship Id="rId128" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image75.png"/>
-  <Relationship Id="rId149" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image94.png"/>
-  <Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings"
-                Target="settings.xml"/>
-  <Relationship Id="rId95" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://go.microsoft.com/fwlink/?LinkId=130719" TargetMode="External"/>
-  <Relationship Id="rId160" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image103.png"/>
-  <Relationship Id="rId181" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:Usern@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId22" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramData"
-                Target="diagrams/data3.xml"/>
-  <Relationship Id="rId43" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ekuygulama.ornek.com.tr/login.php" TargetMode="External"/>
-  <Relationship Id="rId64" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image16.png"/>
-  <Relationship Id="rId118" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://tomcat.apache.org/download-80.cgi" TargetMode="External"/>
-  <Relationship Id="rId139" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image86.png"/>
-  <Relationship Id="rId85" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image36.png"/>
-  <Relationship Id="rId150" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH" TargetMode="External"/>
-  <Relationship Id="rId171" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:willie.watkins@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId192" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart17.xml"/>
-  <Relationship Id="rId12" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramColors"
-                Target="diagrams/colors1.xml"/>
-  <Relationship Id="rId33" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramLayout"
-                Target="diagrams/layout5.xml"/>
-  <Relationship Id="rId108" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image57.png"/>
-  <Relationship Id="rId129" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image76.png"/>
-  <Relationship Id="rId54" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image11.png"/>
-  <Relationship Id="rId75" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image26.png"/>
-  <Relationship Id="rId96" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image46.png"/>
-  <Relationship Id="rId140" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ntp.org/downloads.html" TargetMode="External"/>
-  <Relationship Id="rId161" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:martha.wheeler@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId182" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart7.xml"/>
-  <Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings"
-                Target="webSettings.xml"/>
-  <Relationship Id="rId23" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramLayout"
-                Target="diagrams/layout3.xml"/>
-  <Relationship Id="rId119" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image67.png"/>
-  <Relationship Id="rId44" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ornek.com.tr" TargetMode="External"/>
-  <Relationship Id="rId65" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image17.png"/>
-  <Relationship Id="rId86" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image37.png"/>
-  <Relationship Id="rId130" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image77.png"/>
-  <Relationship Id="rId151" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image95.png"/>
-  <Relationship Id="rId172" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:Usern@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId193" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header"
-                Target="header1.xml"/>
-  <Relationship Id="rId13" Type="http://schemas.microsoft.com/office/2007/relationships/diagramDrawing"
-                Target="diagrams/drawing1.xml"/>
-  <Relationship Id="rId109" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image58.png"/>
-  <Relationship Id="rId34" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramQuickStyle"
-                Target="diagrams/quickStyle5.xml"/>
-  <Relationship Id="rId55" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="https://msdn.microsoft.com/en-us/library/dtkwfdky.aspx" TargetMode="External"/>
-  <Relationship Id="rId76" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image27.png"/>
-  <Relationship Id="rId97" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image47.png"/>
-  <Relationship Id="rId120" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://support.microsoft.com/kb/3042553" TargetMode="External"/>
-  <Relationship Id="rId141" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image87.png"/>
-  <Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes"
-                Target="footnotes.xml"/>
-  <Relationship Id="rId71" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image22.png"/>
-  <Relationship Id="rId92" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image43.png"/>
-  <Relationship Id="rId162" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:willie.watkins@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId183" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart8.xml"/>
-  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml"
-                Target="../customXml/item2.xml"/>
-  <Relationship Id="rId29" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramQuickStyle"
-                Target="diagrams/quickStyle4.xml"/>
-  <Relationship Id="rId24" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramQuickStyle"
-                Target="diagrams/quickStyle3.xml"/>
-  <Relationship Id="rId40" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/oleObject"
-                Target="embeddings/oleObject1.bin"/>
-  <Relationship Id="rId45" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image2.png"/>
-  <Relationship Id="rId66" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image18.png"/>
-  <Relationship Id="rId87" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image38.png"/>
-  <Relationship Id="rId110" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image59.png"/>
-  <Relationship Id="rId115" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image64.png"/>
-  <Relationship Id="rId131" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image78.png"/>
-  <Relationship Id="rId136" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image83.png"/>
-  <Relationship Id="rId157" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image101.png"/>
-  <Relationship Id="rId178" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image107.png"/>
-  <Relationship Id="rId61" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image14.png"/>
-  <Relationship Id="rId82" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image33.png"/>
-  <Relationship Id="rId152" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image96.png"/>
-  <Relationship Id="rId173" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:martha.wheeler@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId194" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
-                Target="footer1.xml"/>
-  <Relationship Id="rId19" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart1.xml"/>
-  <Relationship Id="rId14" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramData"
-                Target="diagrams/data2.xml"/>
-  <Relationship Id="rId30" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramColors"
-                Target="diagrams/colors4.xml"/>
-  <Relationship Id="rId35" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramColors"
-                Target="diagrams/colors5.xml"/>
-  <Relationship Id="rId56" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ornek.com.tr" TargetMode="External"/>
-  <Relationship Id="rId77" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image28.png"/>
-  <Relationship Id="rId100" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image50.png"/>
-  <Relationship Id="rId105" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://go.microsoft.com/fwlink/?LinkId=232664" TargetMode="External"/>
-  <Relationship Id="rId126" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image73.png"/>
-  <Relationship Id="rId147" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image92.png"/>
-  <Relationship Id="rId168" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image104.png"/>
-  <Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/endnotes"
-                Target="endnotes.xml"/>
-  <Relationship Id="rId51" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image8.png"/>
-  <Relationship Id="rId72" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image23.png"/>
-  <Relationship Id="rId93" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image44.png"/>
-  <Relationship Id="rId98" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image48.png"/>
-  <Relationship Id="rId121" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image68.png"/>
-  <Relationship Id="rId142" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image88.png"/>
-  <Relationship Id="rId163" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:Usern@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId184" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart9.xml"/>
-  <Relationship Id="rId189" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart14.xml"/>
-  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering"
-                Target="numbering.xml"/>
-  <Relationship Id="rId25" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramColors"
-                Target="diagrams/colors3.xml"/>
-  <Relationship Id="rId46" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image3.png"/>
-  <Relationship Id="rId67" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://ornekuygulama.com.tr/modules/helpdesk/Helpdesk.aspx" TargetMode="External"/>
-  <Relationship Id="rId116" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image65.png"/>
-  <Relationship Id="rId137" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image84.png"/>
-  <Relationship Id="rId158" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart4.xml"/>
-  <Relationship Id="rId20" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart2.xml"/>
-  <Relationship Id="rId41" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ekuygulama.ornek.com.tr:80/index.php" TargetMode="External"/>
-  <Relationship Id="rId62" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://ornek.com.tr/FileUploads/modules/helpdesk/379952c7-9db4-47c2-a559-88d4819e9233/risk.aspx"
-                TargetMode="External"/>
-  <Relationship Id="rId83" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image34.png"/>
-  <Relationship Id="rId88" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image39.png"/>
-  <Relationship Id="rId111" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image60.png"/>
-  <Relationship Id="rId132" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image79.png"/>
-  <Relationship Id="rId153" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image97.png"/>
-  <Relationship Id="rId174" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:willie.watkins@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId179" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:martha.wheeler@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId195" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
-                Target="footer2.xml"/>
-  <Relationship Id="rId190" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart15.xml"/>
-  <Relationship Id="rId15" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramLayout"
-                Target="diagrams/layout2.xml"/>
-  <Relationship Id="rId36" Type="http://schemas.microsoft.com/office/2007/relationships/diagramDrawing"
-                Target="diagrams/drawing5.xml"/>
-  <Relationship Id="rId57" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ekuygulama.ornek.com" TargetMode="External"/>
-  <Relationship Id="rId106" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image55.png"/>
-  <Relationship Id="rId127" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image74.png"/>
-  <Relationship Id="rId10" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramLayout"
-                Target="diagrams/layout1.xml"/>
-  <Relationship Id="rId31" Type="http://schemas.microsoft.com/office/2007/relationships/diagramDrawing"
-                Target="diagrams/drawing4.xml"/>
-  <Relationship Id="rId52" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image9.png"/>
-  <Relationship Id="rId73" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image24.png"/>
-  <Relationship Id="rId78" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image29.png"/>
-  <Relationship Id="rId94" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image45.png"/>
-  <Relationship Id="rId99" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image49.png"/>
-  <Relationship Id="rId101" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image51.png"/>
-  <Relationship Id="rId122" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image69.png"/>
-  <Relationship Id="rId143" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image89.png"/>
-  <Relationship Id="rId148" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image93.png"/>
-  <Relationship Id="rId164" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:martha.wheeler@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId169" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image105.png"/>
-  <Relationship Id="rId185" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart10.xml"/>
-  <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"
-                Target="styles.xml"/>
-  <Relationship Id="rId9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramData"
-                Target="diagrams/data1.xml"/>
-  <Relationship Id="rId180" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:willie.watkins@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId26" Type="http://schemas.microsoft.com/office/2007/relationships/diagramDrawing"
-                Target="diagrams/drawing3.xml"/>
-  <Relationship Id="rId47" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image4.png"/>
-  <Relationship Id="rId68" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image19.png"/>
-  <Relationship Id="rId89" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image40.png"/>
-  <Relationship Id="rId112" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image61.png"/>
-  <Relationship Id="rId133" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image80.png"/>
-  <Relationship Id="rId154" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image98.png"/>
-  <Relationship Id="rId175" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:Usern@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId196" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable"
-                Target="fontTable.xml"/>
-  <Relationship Id="rId16" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramQuickStyle"
-                Target="diagrams/quickStyle2.xml"/>
-  <Relationship Id="rId37" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.yildiz.edu.tr:80/english/haber.php" TargetMode="External"/>
-  <Relationship Id="rId58" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ornek.com.tr" TargetMode="External"/>
-  <Relationship Id="rId79" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image30.png"/>
-  <Relationship Id="rId102" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image52.png"/>
-  <Relationship Id="rId123" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image70.png"/>
-  <Relationship Id="rId144" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://downloads.mysql.com/archives.php" TargetMode="External"/>
-  <Relationship Id="rId90" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image41.png"/>
-  <Relationship Id="rId165" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:willie.watkins@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId186" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart11.xml"/>
-  <Relationship Id="rId27" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramData"
-                Target="diagrams/data4.xml"/>
-  <Relationship Id="rId48" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image5.png"/>
-  <Relationship Id="rId69" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image20.png"/>
-  <Relationship Id="rId113" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image62.png"/>
-  <Relationship Id="rId134" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image81.png"/>
-  <Relationship Id="rId80" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image31.png"/>
-  <Relationship Id="rId155" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image99.png"/>
-  <Relationship Id="rId176" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart6.xml"/>
-  <Relationship Id="rId197" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"
-                Target="theme/theme1.xml"/>
-  <Relationship Id="rId17" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramColors"
-                Target="diagrams/colors2.xml"/>
-  <Relationship Id="rId38" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="http://www.ornek.com.tr/english/login.php" TargetMode="External"/>
-  <Relationship Id="rId59" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image12.png"/>
-  <Relationship Id="rId103" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image53.png"/>
-  <Relationship Id="rId124" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image71.png"/>
-  <Relationship Id="rId70" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image21.png"/>
-  <Relationship Id="rId91" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image42.png"/>
-  <Relationship Id="rId145" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image90.png"/>
-  <Relationship Id="rId166" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink"
-                Target="mailto:Usern@yopmail.com" TargetMode="External"/>
-  <Relationship Id="rId187" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart12.xml"/>
-  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml"
-                Target="../customXml/item1.xml"/>
-  <Relationship Id="rId28" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/diagramLayout"
-                Target="diagrams/layout4.xml"/>
-  <Relationship Id="rId49" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image6.png"/>
-  <Relationship Id="rId114" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image63.png"/>
-  <Relationship Id="rId60" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image13.png"/>
-  <Relationship Id="rId81" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image32.png"/>
-  <Relationship Id="rId135" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image82.png"/>
-  <Relationship Id="rId156" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image100.png"/>
-  <Relationship Id="rId177" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image106.png"/>
-  <Relationship Id="rId18" Type="http://schemas.microsoft.com/office/2007/relationships/diagramDrawing"
-                Target="diagrams/drawing2.xml"/>
-  <Relationship Id="rId39" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image1.png"/>
-  <Relationship Id="rId50" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image7.png"/>
-  <Relationship Id="rId104" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image54.png"/>
-  <Relationship Id="rId125" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image72.png"/>
-  <Relationship Id="rId146" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
-                Target="media/image91.png"/>
-  <Relationship Id="rId167" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart5.xml"/>
-  <Relationship Id="rId188" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart"
-                Target="charts/chart13.xml"/>
-</Relationships>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<w:styles xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+          xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+          xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+          xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+          xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" mc:Ignorable="w14 w15 wp14">
+  <w:docDefaults>
+    <w:rPrDefault>
+      <w:rPr>
+        <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:eastAsiaTheme="minorHAnsi"
+                  w:cstheme="minorBidi"/>
+        <w:sz w:val="22"/>
+        <w:szCs w:val="22"/>
+        <w:lang w:val="en-US" w:eastAsia="en-US" w:bidi="ar-SA"/>
+      </w:rPr>
+    </w:rPrDefault>
+    <w:pPrDefault>
+      <w:pPr>
+        <w:spacing w:after="160" w:line="259" w:lineRule="auto"/>
+      </w:pPr>
+    </w:pPrDefault>
+  </w:docDefaults>
+  <w:latentStyles w:defLockedState="0" w:defUIPriority="99" w:defSemiHidden="0" w:defUnhideWhenUsed="0" w:defQFormat="0"
+                  w:count="371">
+    <w:lsdException w:name="Normal" w:uiPriority="0" w:qFormat="1"/>
+    <w:lsdException w:name="heading 1" w:uiPriority="9" w:qFormat="1"/>
+    <w:lsdException w:name="heading 2" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 3" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 4" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 5" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 6" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 7" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 8" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="heading 9" w:uiPriority="9" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="index 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 6" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 7" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 8" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index 9" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 1" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 2" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 3" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 4" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 5" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 6" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 7" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 8" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toc 9" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Normal Indent" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="footnote text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="annotation text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="header" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="footer" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="index heading" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="caption" w:uiPriority="35" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="table of figures" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="envelope address" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="envelope return" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="footnote reference" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="annotation reference" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="line number" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="page number" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="endnote reference" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="endnote text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="table of authorities" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="macro" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="toa heading" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Bullet" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Number" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Bullet 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Bullet 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Bullet 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Bullet 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Number 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Number 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Number 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Number 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Title" w:uiPriority="10" w:qFormat="1"/>
+    <w:lsdException w:name="Closing" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Signature" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Default Paragraph Font" w:uiPriority="1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text Indent" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Continue" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Continue 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Continue 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Continue 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="List Continue 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Message Header" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Subtitle" w:uiPriority="11" w:qFormat="1"/>
+    <w:lsdException w:name="Salutation" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Date" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text First Indent" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text First Indent 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Note Heading" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text Indent 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Body Text Indent 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Block Text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Hyperlink" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="FollowedHyperlink" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Strong" w:uiPriority="22" w:qFormat="1"/>
+    <w:lsdException w:name="Emphasis" w:uiPriority="20" w:qFormat="1"/>
+    <w:lsdException w:name="Document Map" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Plain Text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="E-mail Signature" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Top of Form" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Bottom of Form" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Normal (Web)" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Acronym" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Address" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Cite" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Code" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Definition" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Keyboard" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Preformatted" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Sample" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Typewriter" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="HTML Variable" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Normal Table" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="annotation subject" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="No List" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Outline List 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Outline List 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Outline List 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Simple 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Simple 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Simple 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Classic 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Classic 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Classic 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Classic 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Colorful 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Colorful 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Colorful 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Columns 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Columns 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Columns 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Columns 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Columns 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 6" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 7" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid 8" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 4" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 5" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 6" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 7" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table List 8" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table 3D effects 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table 3D effects 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table 3D effects 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Contemporary" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Elegant" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Professional" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Subtle 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Subtle 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Web 1" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Web 2" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Web 3" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Balloon Text" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Table Grid" w:uiPriority="39"/>
+    <w:lsdException w:name="Table Theme" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="Placeholder Text" w:semiHidden="1"/>
+    <w:lsdException w:name="No Spacing" w:uiPriority="1" w:qFormat="1"/>
+    <w:lsdException w:name="Light Shading" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1" w:uiPriority="65"/>
+    <w:lsdException w:name="Medium List 2" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid" w:uiPriority="73"/>
+    <w:lsdException w:name="Light Shading Accent 1" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List Accent 1" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid Accent 1" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1 Accent 1" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2 Accent 1" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1 Accent 1" w:uiPriority="65"/>
+    <w:lsdException w:name="Revision" w:semiHidden="1"/>
+    <w:lsdException w:name="List Paragraph" w:uiPriority="34" w:qFormat="1"/>
+    <w:lsdException w:name="Quote" w:uiPriority="29" w:qFormat="1"/>
+    <w:lsdException w:name="Intense Quote" w:uiPriority="30" w:qFormat="1"/>
+    <w:lsdException w:name="Medium List 2 Accent 1" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1 Accent 1" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2 Accent 1" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3 Accent 1" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List Accent 1" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading Accent 1" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List Accent 1" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid Accent 1" w:uiPriority="73"/>
+    <w:lsdException w:name="Light Shading Accent 2" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List Accent 2" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid Accent 2" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1 Accent 2" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2 Accent 2" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1 Accent 2" w:uiPriority="65"/>
+    <w:lsdException w:name="Medium List 2 Accent 2" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1 Accent 2" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2 Accent 2" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3 Accent 2" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List Accent 2" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading Accent 2" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List Accent 2" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid Accent 2" w:uiPriority="73"/>
+    <w:lsdException w:name="Light Shading Accent 3" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List Accent 3" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid Accent 3" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1 Accent 3" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2 Accent 3" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1 Accent 3" w:uiPriority="65"/>
+    <w:lsdException w:name="Medium List 2 Accent 3" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1 Accent 3" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2 Accent 3" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3 Accent 3" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List Accent 3" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading Accent 3" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List Accent 3" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid Accent 3" w:uiPriority="73"/>
+    <w:lsdException w:name="Light Shading Accent 4" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List Accent 4" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid Accent 4" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1 Accent 4" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2 Accent 4" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1 Accent 4" w:uiPriority="65"/>
+    <w:lsdException w:name="Medium List 2 Accent 4" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1 Accent 4" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2 Accent 4" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3 Accent 4" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List Accent 4" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading Accent 4" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List Accent 4" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid Accent 4" w:uiPriority="73"/>
+    <w:lsdException w:name="Light Shading Accent 5" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List Accent 5" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid Accent 5" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1 Accent 5" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2 Accent 5" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1 Accent 5" w:uiPriority="65"/>
+    <w:lsdException w:name="Medium List 2 Accent 5" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1 Accent 5" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2 Accent 5" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3 Accent 5" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List Accent 5" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading Accent 5" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List Accent 5" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid Accent 5" w:uiPriority="73"/>
+    <w:lsdException w:name="Light Shading Accent 6" w:uiPriority="60"/>
+    <w:lsdException w:name="Light List Accent 6" w:uiPriority="61"/>
+    <w:lsdException w:name="Light Grid Accent 6" w:uiPriority="62"/>
+    <w:lsdException w:name="Medium Shading 1 Accent 6" w:uiPriority="63"/>
+    <w:lsdException w:name="Medium Shading 2 Accent 6" w:uiPriority="64"/>
+    <w:lsdException w:name="Medium List 1 Accent 6" w:uiPriority="65"/>
+    <w:lsdException w:name="Medium List 2 Accent 6" w:uiPriority="66"/>
+    <w:lsdException w:name="Medium Grid 1 Accent 6" w:uiPriority="67"/>
+    <w:lsdException w:name="Medium Grid 2 Accent 6" w:uiPriority="68"/>
+    <w:lsdException w:name="Medium Grid 3 Accent 6" w:uiPriority="69"/>
+    <w:lsdException w:name="Dark List Accent 6" w:uiPriority="70"/>
+    <w:lsdException w:name="Colorful Shading Accent 6" w:uiPriority="71"/>
+    <w:lsdException w:name="Colorful List Accent 6" w:uiPriority="72"/>
+    <w:lsdException w:name="Colorful Grid Accent 6" w:uiPriority="73"/>
+    <w:lsdException w:name="Subtle Emphasis" w:uiPriority="19" w:qFormat="1"/>
+    <w:lsdException w:name="Intense Emphasis" w:uiPriority="21" w:qFormat="1"/>
+    <w:lsdException w:name="Subtle Reference" w:uiPriority="31" w:qFormat="1"/>
+    <w:lsdException w:name="Intense Reference" w:uiPriority="32" w:qFormat="1"/>
+    <w:lsdException w:name="Book Title" w:uiPriority="33" w:qFormat="1"/>
+    <w:lsdException w:name="Bibliography" w:uiPriority="37" w:semiHidden="1" w:unhideWhenUsed="1"/>
+    <w:lsdException w:name="TOC Heading" w:uiPriority="39" w:semiHidden="1" w:unhideWhenUsed="1" w:qFormat="1"/>
+    <w:lsdException w:name="Plain Table 1" w:uiPriority="41"/>
+    <w:lsdException w:name="Plain Table 2" w:uiPriority="42"/>
+    <w:lsdException w:name="Plain Table 3" w:uiPriority="43"/>
+    <w:lsdException w:name="Plain Table 4" w:uiPriority="44"/>
+    <w:lsdException w:name="Plain Table 5" w:uiPriority="45"/>
+    <w:lsdException w:name="Grid Table Light" w:uiPriority="40"/>
+    <w:lsdException w:name="Grid Table 1 Light" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful" w:uiPriority="52"/>
+    <w:lsdException w:name="Grid Table 1 Light Accent 1" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2 Accent 1" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3 Accent 1" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4 Accent 1" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark Accent 1" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful Accent 1" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful Accent 1" w:uiPriority="52"/>
+    <w:lsdException w:name="Grid Table 1 Light Accent 2" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2 Accent 2" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3 Accent 2" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4 Accent 2" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark Accent 2" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful Accent 2" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful Accent 2" w:uiPriority="52"/>
+    <w:lsdException w:name="Grid Table 1 Light Accent 3" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2 Accent 3" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3 Accent 3" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4 Accent 3" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark Accent 3" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful Accent 3" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful Accent 3" w:uiPriority="52"/>
+    <w:lsdException w:name="Grid Table 1 Light Accent 4" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2 Accent 4" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3 Accent 4" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4 Accent 4" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark Accent 4" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful Accent 4" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful Accent 4" w:uiPriority="52"/>
+    <w:lsdException w:name="Grid Table 1 Light Accent 5" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2 Accent 5" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3 Accent 5" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4 Accent 5" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark Accent 5" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful Accent 5" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful Accent 5" w:uiPriority="52"/>
+    <w:lsdException w:name="Grid Table 1 Light Accent 6" w:uiPriority="46"/>
+    <w:lsdException w:name="Grid Table 2 Accent 6" w:uiPriority="47"/>
+    <w:lsdException w:name="Grid Table 3 Accent 6" w:uiPriority="48"/>
+    <w:lsdException w:name="Grid Table 4 Accent 6" w:uiPriority="49"/>
+    <w:lsdException w:name="Grid Table 5 Dark Accent 6" w:uiPriority="50"/>
+    <w:lsdException w:name="Grid Table 6 Colorful Accent 6" w:uiPriority="51"/>
+    <w:lsdException w:name="Grid Table 7 Colorful Accent 6" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light Accent 1" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2 Accent 1" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3 Accent 1" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4 Accent 1" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark Accent 1" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful Accent 1" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful Accent 1" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light Accent 2" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2 Accent 2" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3 Accent 2" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4 Accent 2" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark Accent 2" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful Accent 2" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful Accent 2" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light Accent 3" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2 Accent 3" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3 Accent 3" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4 Accent 3" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark Accent 3" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful Accent 3" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful Accent 3" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light Accent 4" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2 Accent 4" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3 Accent 4" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4 Accent 4" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark Accent 4" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful Accent 4" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful Accent 4" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light Accent 5" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2 Accent 5" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3 Accent 5" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4 Accent 5" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark Accent 5" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful Accent 5" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful Accent 5" w:uiPriority="52"/>
+    <w:lsdException w:name="List Table 1 Light Accent 6" w:uiPriority="46"/>
+    <w:lsdException w:name="List Table 2 Accent 6" w:uiPriority="47"/>
+    <w:lsdException w:name="List Table 3 Accent 6" w:uiPriority="48"/>
+    <w:lsdException w:name="List Table 4 Accent 6" w:uiPriority="49"/>
+    <w:lsdException w:name="List Table 5 Dark Accent 6" w:uiPriority="50"/>
+    <w:lsdException w:name="List Table 6 Colorful Accent 6" w:uiPriority="51"/>
+    <w:lsdException w:name="List Table 7 Colorful Accent 6" w:uiPriority="52"/>
+  </w:latentStyles>
+  <w:style w:type="paragraph" w:styleId="Normal" w:default="1">
+    <w:name w:val="Normal"/>
+    <w:qFormat/>
+  </w:style>
+  <w:style w:type="character" w:styleId="DefaultParagraphFont" w:default="1">
+    <w:name w:val="Default Paragraph Font"/>
+    <w:uiPriority w:val="1"/>
+    <w:semiHidden/>
+    <w:unhideWhenUsed/>
+  </w:style>
+  <w:style w:type="table" w:styleId="TableNormal" w:default="1">
+    <w:name w:val="Normal Table"/>
+    <w:uiPriority w:val="99"/>
+    <w:semiHidden/>
+    <w:unhideWhenUsed/>
+    <w:tblPr>
+      <w:tblInd w:w="0" w:type="dxa"/>
+      <w:tblCellMar>
+        <w:top w:w="0" w:type="dxa"/>
+        <w:left w:w="108" w:type="dxa"/>
+        <w:bottom w:w="0" w:type="dxa"/>
+        <w:right w:w="108" w:type="dxa"/>
+      </w:tblCellMar>
+    </w:tblPr>
+  </w:style>
+  <w:style w:type="numbering" w:styleId="NoList" w:default="1">
+    <w:name w:val="No List"/>
+    <w:uiPriority w:val="99"/>
+    <w:semiHidden/>
+    <w:unhideWhenUsed/>
+  </w:style>
+</w:styles>
