@@ -24,7 +24,8 @@ Or install it yourself as:
 
 Html2Docx has very easy usage.
 
-This time only supporting paragraph output. [Wiki - Paragraph Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Paragraph-Usage)
+* Supporting paragraph. [Wiki - Paragraph Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Paragraph-Usage)
+* Supporting heading. [Wiki - Heading Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Heading-Usage)
 
 ## Contributing
 
