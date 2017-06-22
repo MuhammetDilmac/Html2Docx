@@ -11,7 +11,9 @@ require 'Html2Docx/initialization'
 require 'Html2Docx/content_types'
 require 'Html2Docx/relation'
 require 'Html2Docx/document'
+
 require 'Html2Docx/document_objects/paragraph'
+require 'Html2Docx/document_objects/heading'
 
 module Html2Docx
   ROOT_PATH = File.expand_path(File.join(File.dirname(__FILE__), '../'))

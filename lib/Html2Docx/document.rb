@@ -28,6 +28,10 @@ module Html2Docx
             paragraph = DocumentObjects::Paragraph.new(@document, nil)
             paragraph.add_paragraph(element)
             @contents.push paragraph.render
+          when /h[1-9]/
+            heading = DocumentObjects::Heading.new(@document)
+            heading.add_heading(element)
+            @contents.push heading.render
           when 'table'
             # Add table
             @contents.push ''

@@ -9,11 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['MuhammetDilmac']
   spec.email         = ['iletisim@muhammetdilmac.com.tr']
 
-  spec.summary       = 'HTML çıktısından Docx oluşturmayı sağlayan ruby' \
-                       'kütüphanesi'
-  spec.description   = 'Kendisine özel olarak oluşturulan html çıktısını ' \
-                        'işleyerek bu çıktıdan Docx üretmeyi sağlayan ruby ' \
-                        'kütüphanesi'
+  spec.summary       = 'Ruby library for creating Docx from HTML output'
+  spec.description   = 'Ruby library for creating Docx from HTML output'
   spec.homepage      = 'https://www.github.com/MuhammetDilmac/Html2Docx'
   spec.license       = 'MIT'
 
