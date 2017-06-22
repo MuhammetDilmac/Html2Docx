@@ -7,11 +7,11 @@ module Html2Docx
       @last_relation_id = 1
 
       if options[:main_relation]
-        @relation_file = File.join(TEMP_PATH, 'word', '_rels', 'document2.xml.rels')
+        @relation_file = File.join(options.fetch(:temp), 'word', '_rels', 'document2.xml.rels')
         @relation = File.open(@relation_file) { |f| Nokogiri::XML(f) }
         @last_relation_id = @relation.css('Relationship').last.attr('Id').to_i
       else
-        @relation_file = File.join(TEMP_PATH, 'word', '_rels', options.fetch(:file_name))
+        @relation_file = File.join(options.fetch(:temp), 'word', '_rels', options.fetch(:file_name))
         @relation = create_relation_file
       end
 

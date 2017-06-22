@@ -1,7 +1,7 @@
 module Html2Docx
   class Document
     def initialize(options = {})
-      @document_file = File.join(TEMP_PATH, 'word', 'document2.xml')
+      @document_file = File.join(options.fetch(:temp), 'word', 'document2.xml')
       @document = File.open(@document_file) { |f| Nokogiri::XML(f) }
       @body = @document.at_xpath('//w:body')
       @contents = []

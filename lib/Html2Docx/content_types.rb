@@ -1,7 +1,7 @@
 module Html2Docx
   class ContentTypes
     def initialize(options = {})
-      @content_type_file = File.join(TEMP_PATH, '[Content_Types].xml')
+      @content_type_file = File.join(options.fetch(:temp), '[Content_Types].xml')
       @content_type = File.open(@content_type_file) {|f| Nokogiri::XML(f)}
       @parts = {default: [], override: []}
       initial_parts
