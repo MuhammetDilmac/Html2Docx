@@ -14,32 +14,40 @@ module Html2Docx
       def create_paragraph(paragraph_object)
         @paragraph = Nokogiri::XML::Node.new('w:p', @document)
 
-        paragraph_style = paragraph_object.attr('style')
-        add_paragraph_style paragraph_style if paragraph_style
-
+        add_paragraph_style paragraph_object
         add_paragraph_child paragraph_object.children
       end
 
-      def add_paragraph_style(style_attribute)
-        paragraph_style = Nokogiri::XML::Node.new('w:pPr',  @document)
+      def add_paragraph_style(paragraph_object)
+        paragraph_style  = Nokogiri::XML::Node.new('w:pPr',  @document)
         paragraph_styles = []
 
-        styles = style_attribute.split(';')
+        style_attribute  = paragraph_object.attr('style')
+        style_attributes = style_attribute.split(';') if style_attribute
 
-        styles.each do |style|
-          style = style.strip
-          attribute, value = style.scan(/(.+):\s?(.+);?/).flatten
+        paragraph_class  = paragraph_object.attr('class')
+        paragraph_class  = paragraph_class.split(' ')&.first if paragraph_class
 
-          case attribute
-            when 'text-indent'
-              paragraph_styles.push add_paragraph_indent(value)
-            when 'text-align'
-              paragraph_styles.push add_paragraph_alignment(value)
-            when 'background-color'
-              paragraph_styles.push add_paragraph_background_color(value)
-            when 'line-height'
-              paragraph_styles.push add_line_height(value)
+        if style_attributes
+          style_attributes.each do |style|
+            style = style.strip
+            attribute, value = style.scan(/(.+):\s?(.+);?/).flatten
+
+            case attribute
+              when 'text-indent'
+                paragraph_styles.push add_paragraph_indent(value)
+              when 'text-align'
+                paragraph_styles.push add_paragraph_alignment(value)
+              when 'background-color'
+                paragraph_styles.push add_paragraph_background_color(value)
+              when 'line-height'
+                paragraph_styles.push add_paragraph_line_height(value)
+            end
           end
+        end
+
+        unless paragraph_class.nil?
+          paragraph_styles.push add_paragraph_class(paragraph_class)
         end
 
         paragraph_styles.each do |style|
@@ -54,6 +62,13 @@ module Html2Docx
         indent_tag['w:firstLine'] = Helpers::DocumentHelper.px_to_indent(value)
 
         indent_tag
+      end
+
+      def add_paragraph_class(value)
+        class_tag = Nokogiri::XML::Node.new('w:pStyle', @document)
+        class_tag['w:val'] = value
+
+        class_tag
       end
 
       def add_paragraph_alignment(value)
@@ -74,7 +89,7 @@ module Html2Docx
         background_tag
       end
 
-      def add_line_height(value)
+      def add_paragraph_line_height(value)
         line_height_tag = Nokogiri::XML::Node.new('w:spacing', @document)
         line_height_tag['w:line'] = Helpers::DocumentHelper.line_height(value)
 
