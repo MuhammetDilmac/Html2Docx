@@ -5,6 +5,7 @@ module Html2Docx
       @relation = nil
       @relations = []
       @last_relation_id = 1
+      @internal_links = {}
 
       if options[:main_relation]
         @relation_file = File.join(options.fetch(:temp), 'word', '_rels', 'document2.xml.rels')
@@ -36,14 +37,47 @@ module Html2Docx
       @last_relation_id = @last_relation_id + 1
     end
 
-    def render
-       File.open(@relation_file, 'w') { |f| f.write(Helpers::NokogiriHelper.to_xml(@relation)) }
-    end
-
     def get_type(type)
     end
 
     def get_target(target)
+    end
+
+    def create_internal_link_start_tag(name, document)
+      bookmark_start_tag = Nokogiri::XML::Node.new('w:bookmarkStart', document)
+      bookmark_start_tag['w:id'] = create_internal_link_id(name)
+      bookmark_start_tag['w:name'] = name
+
+      bookmark_start_tag
+    end
+
+    def create_internal_link_end_tag(name, document)
+      bookmark_end_tag = Nokogiri::XML::Node.new('w:bookmarkEnd', document)
+      bookmark_end_tag['w:id'] = find_internal_link_id(name)
+
+      bookmark_end_tag
+    end
+
+    def create_internal_link_id(name)
+      id = find_internal_link_id(name)
+      if id
+        id = get_latest_internal_link_id + 1
+        @internal_links[id] = name
+      else
+        id
+      end
+    end
+
+    def get_latest_internal_link_id
+      @internal_links.keys.max || 0
+    end
+
+    def find_internal_link_id(name)
+      @internal_links.find{ |key, value| value == name }
+    end
+
+    def render
+       File.open(@relation_file, 'w') { |f| f.write(Helpers::NokogiriHelper.to_xml(@relation)) }
     end
   end
 end

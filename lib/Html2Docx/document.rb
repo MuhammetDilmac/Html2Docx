@@ -5,6 +5,7 @@ module Html2Docx
       @document = File.open(@document_file) { |f| Nokogiri::XML(f) }
       @body = @document.at_xpath('//w:body')
       @contents = []
+      @relation = options[:main_relation]
 
       initial_body
       add_html(options[:html])
@@ -25,7 +26,7 @@ module Html2Docx
         case element.name
           when 'p'
             # Add paragraph
-            paragraph = DocumentObjects::Paragraph.new(@document, nil)
+            paragraph = DocumentObjects::Paragraph.new(@document, @relation)
             paragraph.add_paragraph(element)
             @contents.push paragraph.render
           when /h[1-9]/
