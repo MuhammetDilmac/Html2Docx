@@ -6,6 +6,7 @@ module Html2Docx
       @relations = []
       @last_relation_id = 1
       @internal_links = {}
+      @external_links = {}
 
       if options[:main_relation]
         @relation_file = File.join(options.fetch(:temp), 'word', '_rels', 'document2.xml.rels')
@@ -16,7 +17,11 @@ module Html2Docx
         @relation = create_relation_file
       end
 
-      @relations = @relation.css('Relationship').first
+      @relations = @relation.at_css('Relationships')
+
+      @relation.at_css('Relationship').children.each do |children|
+        children.remove
+      end
     end
 
     def create_relation_file
@@ -26,21 +31,6 @@ module Html2Docx
       relations_tag['xmlns'] = 'http://schemas.openxmlformats.org/package/2006/relationships'
       document.add_child relations_tag
       document
-    end
-
-    def add_relation(type, target)
-      relation_tag = Nokogiri::XML::Node.new('Relationship', @relation)
-      relation_tag['Id'] = "rId#{@last_relation_id + 1}"
-      relation_tag['Type'] = get_type(type)
-      relation_tag['Target'] = get_target(target)
-      @relations.add_child(relation_tag)
-      @last_relation_id = @last_relation_id + 1
-    end
-
-    def get_type(type)
-    end
-
-    def get_target(target)
     end
 
     def create_internal_link_start_tag(name, document)
@@ -61,11 +51,31 @@ module Html2Docx
     def create_internal_link_id(name)
       id = find_internal_link_id(name)
       if id
+        id
+      else
         id = get_latest_internal_link_id + 1
         @internal_links[id] = name
-      else
-        id
       end
+    end
+
+    def create_external_link_id(destination)
+      id = find_external_link_id(destination)
+
+      if id
+        id
+      else
+        id = get_latest_external_link_id.delete('rId').to_i + 1
+        @external_links["rId#{id}"] = destination
+        "rId#{id}"
+      end
+    end
+
+    def find_external_link_id(destination)
+      @external_links.find { |key, value| value == destination }
+    end
+
+    def get_latest_external_link_id
+      @external_links.keys.max || "rId0"
     end
 
     def get_latest_internal_link_id
@@ -77,7 +87,17 @@ module Html2Docx
     end
 
     def render
-       File.open(@relation_file, 'w') { |f| f.write(Helpers::NokogiriHelper.to_xml(@relation)) }
+      @external_links.each do |key, value|
+        external_link_relation = Nokogiri::XML::Node.new('Relationship', @relation)
+        external_link_relation['Id'] = key
+        external_link_relation['Type'] = 'http://. . ./hyperlink'
+        external_link_relation['Target'] = value
+        external_link_relation['TargetMode'] = 'External'
+
+        @relation.root.add_child(external_link_relation)
+      end
+
+      File.open(@relation_file, 'w') { |f| f.write(Helpers::NokogiriHelper.to_xml(@relation)) }
     end
   end
 end

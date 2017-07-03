@@ -1,8 +1,9 @@
 module Html2Docx
   module DocumentObjects
     class Heading
-      def initialize(document)
+      def initialize(document, relation)
         @document = document
+        @relation = relation
         @heading  = nil
       end
 
@@ -10,7 +11,7 @@ module Html2Docx
         heading_object['class'] = "Heading#{heading_object.name.scan(/[0-9]/).first}"
         heading_object.name = 'p'
 
-        paragraph = Paragraph.new(@document, nil)
+        paragraph = Paragraph.new(@document, @relation)
         paragraph.add_paragraph(heading_object)
 
         @heading = paragraph.render
