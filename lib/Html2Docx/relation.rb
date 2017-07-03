@@ -43,7 +43,8 @@ module Html2Docx
 
     def create_internal_link_end_tag(name, document)
       bookmark_end_tag = Nokogiri::XML::Node.new('w:bookmarkEnd', document)
-      bookmark_end_tag['w:id'] = find_internal_link_id(name)
+      id, value = find_internal_link_id(name)
+      bookmark_end_tag['w:id'] = value
 
       bookmark_end_tag
     end
@@ -59,7 +60,7 @@ module Html2Docx
     end
 
     def create_external_link_id(destination)
-      id = find_external_link_id(destination)
+      id, value = find_external_link_id(destination)
 
       if id
         id
