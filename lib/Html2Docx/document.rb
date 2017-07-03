@@ -30,7 +30,7 @@ module Html2Docx
             paragraph.add_paragraph(element)
             @contents.push paragraph.render
           when /h[1-9]/
-            heading = DocumentObjects::Heading.new(@document)
+            heading = DocumentObjects::Heading.new(@document, @relation)
             heading.add_heading(element)
             @contents.push heading.render
           when 'table'
