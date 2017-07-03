@@ -159,6 +159,8 @@ module Html2Docx
 
         if destination.start_with?('#')
           hyperlink_tag['w:anchor'] = destination.delete('#')
+        else
+          hyperlink_tag['r:id'] = @relation.create_external_link_id(destination)
         end
 
         hyperlink_tag
