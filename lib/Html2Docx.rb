@@ -32,19 +32,22 @@ module Html2Docx
   def self.render(options = {})
     initialization = Initialization.new(options)
     options[:temp] = initialization.get_temp_directory
+    options[:initialization] = initialization
 
     content_types  = ContentTypes.new(options)
+    options[:content_types] = content_types
 
     options[:main_relation] = true
-    relation       = Relation.new(options)
-    options[:main_relation] = false
+    main_relation  = Relation.new(options)
+    options[:main_relation] = main_relation
 
     document       = Document.new(options)
+    options[:document] = document
 
     # Render
     document.render
     content_types.render
-    relation.render
+    main_relation.render
 
     # Create Docx File
     self.create_docx(options.fetch(:output), options.fetch(:temp))

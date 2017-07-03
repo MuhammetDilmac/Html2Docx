@@ -14,8 +14,22 @@ module Html2Docx
       def create_paragraph(paragraph_object)
         @paragraph = Nokogiri::XML::Node.new('w:p', @document)
 
+        paragraph_id     = paragraph_object.attr('id')
+
         add_paragraph_style paragraph_object
+        add_bookmark_start_tag(paragraph_id) if paragraph_id
         add_paragraph_child paragraph_object.children
+        add_bookmark_end_tag(paragraph_id) if paragraph_id
+      end
+
+      def add_bookmark_start_tag(name)
+        bookmark_start_tag = @relation.create_internal_link_start_tag(name, @document)
+        @paragraph.add_child(bookmark_start_tag)
+      end
+
+      def add_bookmark_end_tag(name)
+        bookmark_end_tag = @relation.create_internal_link_end_tag(name, @document)
+        @paragraph.add_child(bookmark_end_tag)
       end
 
       def add_paragraph_style(paragraph_object)
@@ -100,7 +114,6 @@ module Html2Docx
         children.each do |child|
           text_field = create_text_field
           text_style = create_text_style
-
           case child.name
             when 'strong'
               text_field.add_child add_strong_text(text_style)
@@ -113,9 +126,22 @@ module Html2Docx
               text_field.add_child add_underline_text(text_style)
             when 's'
               text_field.add_child add_stroke_text(text_style)
+            when 'a'
+              href = child.attr('href')
+              hyperlink_tag = create_hyperlink_tag(href)
+              text_field.add_child(add_link_class(text_style))
+              hyperlink_tag.add_child(text_field)
+              text_field.add_child add_paragraph_text(child.text)
+              hyperlink_tag.add_child text_field
+              @paragraph.add_child hyperlink_tag
+              next
           end
 
+          paragraph_id = child.attr('id')
+
+          add_bookmark_start_tag(paragraph_id) if paragraph_id
           text_field.add_child add_paragraph_text(child.text)
+          add_bookmark_end_tag(paragraph_id) if paragraph_id
           @paragraph.add_child text_field
         end
       end
@@ -128,12 +154,30 @@ module Html2Docx
         Nokogiri::XML::Node.new('w:rPr', @document)
       end
 
+      def create_hyperlink_tag(destination)
+        hyperlink_tag = Nokogiri::XML::Node.new('w:hyperlink', @document)
+
+        if destination.start_with?('#')
+          hyperlink_tag['w:anchor'] = destination.delete('#')
+        end
+
+        hyperlink_tag
+      end
+
       def add_paragraph_text(value)
         plain_text = Nokogiri::XML::Node.new('w:t', @document)
         plain_text['xml:space'] = 'preserve'
         plain_text.content = value
 
         plain_text
+      end
+
+      def add_link_class(text_style)
+        r_style_tag = Nokogiri::XML::Node.new('w:rStyle', @document)
+        r_style_tag['w:val'] = 'Hyperlink'
+        text_style.add_child(r_style_tag)
+
+        text_style
       end
 
       def add_strong_text(text_style)
