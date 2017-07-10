@@ -1,9 +1,10 @@
 module Html2Docx
   module DocumentObjects
     class Paragraph
-      def initialize(document, relation)
+      def initialize(document, relation, tmp_path)
         @document  = document
         @relation  = relation
+        @tmp_path  = tmp_path
         @paragraph = nil
       end
 
@@ -135,6 +136,10 @@ module Html2Docx
               hyperlink_tag.add_child text_field
               @paragraph.add_child hyperlink_tag
               next
+            when 'img'
+              text_field.add_child add_image(child)
+              @paragraph.add_child(text_field)
+              next
           end
 
           paragraph_id = child.attr('id')
@@ -218,6 +223,11 @@ module Html2Docx
         text_style.add_child(stroke_text)
 
         text_style
+      end
+
+      def add_image(image)
+        image_object_helper = DocumentObjects::Image.new(@document, @relation, @tmp_path)
+        image_object_helper.add_image(image)
       end
 
       def render

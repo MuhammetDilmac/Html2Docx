@@ -1,7 +1,8 @@
 module Html2Docx
   class Document
     def initialize(options = {})
-      @document_file = File.join(options.fetch(:temp), 'word', 'document2.xml')
+      @tmp_path = options[:temp]
+      @document_file = File.join(@tmp_path, 'word', 'document2.xml')
       @document = File.open(@document_file) { |f| Nokogiri::XML(f) }
       @body = @document.at_xpath('//w:body')
       @contents = []
@@ -26,11 +27,11 @@ module Html2Docx
         case element.name
           when 'p'
             # Add paragraph
-            paragraph = DocumentObjects::Paragraph.new(@document, @relation)
+            paragraph = DocumentObjects::Paragraph.new(@document, @relation, @tmp_path)
             paragraph.add_paragraph(element)
             @contents.push paragraph.render
           when /h[1-9]/
-            heading = DocumentObjects::Heading.new(@document, @relation)
+            heading = DocumentObjects::Heading.new(@document, @relation, @tmp_path)
             heading.add_heading(element)
             @contents.push heading.render
           when 'table'
