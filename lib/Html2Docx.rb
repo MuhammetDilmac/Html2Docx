@@ -1,6 +1,7 @@
 require 'fileutils'
 require 'nokogiri'
 require 'zip'
+require 'typhoeus'
 
 require 'Html2Docx/helpers/document_helper'
 require 'Html2Docx/helpers/nokogiri_helper'
@@ -14,6 +15,7 @@ require 'Html2Docx/document'
 
 require 'Html2Docx/document_objects/paragraph'
 require 'Html2Docx/document_objects/heading'
+require 'Html2Docx/document_objects/image'
 
 module Html2Docx
   ROOT_PATH = File.expand_path(File.join(File.dirname(__FILE__), '../'))

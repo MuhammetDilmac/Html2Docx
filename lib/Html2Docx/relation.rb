@@ -7,6 +7,8 @@ module Html2Docx
       @last_relation_id = 1
       @internal_links = {}
       @external_links = {}
+      @images = {}
+      @unique_image_id = 0
 
       if options[:main_relation]
         @relation_file = File.join(options.fetch(:temp), 'word', '_rels', 'document2.xml.rels')
@@ -59,26 +61,6 @@ module Html2Docx
       end
     end
 
-    def create_external_link_id(destination)
-      id, value = find_external_link_id(destination)
-
-      if id
-        id
-      else
-        id = get_latest_external_link_id.delete('rId').to_i + 1
-        @external_links["rId#{id}"] = destination
-        "rId#{id}"
-      end
-    end
-
-    def find_external_link_id(destination)
-      @external_links.find { |key, value| value == destination }
-    end
-
-    def get_latest_external_link_id
-      @external_links.keys.max || "rId0"
-    end
-
     def get_latest_internal_link_id
       @internal_links.keys.max || 0
     end
@@ -87,15 +69,101 @@ module Html2Docx
       @internal_links.find{ |key, value| value == name }
     end
 
+    def create_external_link_id(destination)
+      id, value = find_external_link_id(destination)
+
+      if id
+        id
+      else
+        id = get_latest_external_link_id.delete('elId').to_i + 1
+        @external_links["elId#{id}"] = destination
+
+        "elId#{id}"
+      end
+    end
+
+    def find_external_link_id(destination)
+      @external_links.find { |key, value| value == destination }
+    end
+
+    def get_latest_external_link_id
+      @external_links.keys.max || 'elId0'
+    end
+
+    def get_uniq_image_id
+      @unique_image_id = @unique_image_id + 1
+    end
+
+    def add_image(image, media_path)
+      real_path    = image[:path]
+      image_name   = image[:path].split('/').last
+      current_path = File.join(media_path, image_name)
+
+      if real_path.start_with? 'http'
+        request    = Typhoeus::Request.new(real_path)
+        image_file = File.open(current_path, 'wb+')
+
+        request.on_headers do |response|
+          if response.code != 200
+            raise "Image not found! Image Path: #{real_path}"
+          end
+        end
+
+        request.on_body do |data|
+          image_file.write(data)
+        end
+
+        request.on_complete do |response|
+          image_file.close
+        end
+
+        request.run
+      else
+        if File.exist? real_path
+          FileUtils.cp real_path, current_path
+        else
+          raise "Image not found! Image Path: #{real_path}"
+        end
+      end
+
+      relation_image_path = File.join('/', 'media', image_name)
+
+      add_image_relation(relation_image_path)
+    end
+
+    def add_image_relation(relation_image_path)
+      image_id = "iId#{get_uniq_image_id}"
+
+      @images[image_id] = {
+        type: 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image',
+        target: relation_image_path
+      }
+
+      image_id
+    end
+
+    def get_latest_image_id
+      @images.keys.max.to_i
+    end
+
     def render
       @external_links.each do |key, value|
         external_link_relation = Nokogiri::XML::Node.new('Relationship', @relation)
-        external_link_relation['Id'] = key
-        external_link_relation['Type'] = 'http://. . ./hyperlink'
+        external_link_relation['Type'] = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink'
         external_link_relation['Target'] = value
         external_link_relation['TargetMode'] = 'External'
+        external_link_relation['Id'] = key
 
         @relation.root.add_child(external_link_relation)
+      end
+
+      @images.each do |key, value|
+        image_relation = Nokogiri::XML::Node.new('Relationship', @relation)
+        image_relation['Type'] = value[:type]
+        image_relation['Target'] = value[:target]
+        image_relation['Id'] = key
+
+        @relation.root.add_child(image_relation)
       end
 
       File.open(@relation_file, 'w') { |f| f.write(Helpers::NokogiriHelper.to_xml(@relation)) }
