@@ -28,6 +28,7 @@ Html2Docx has very easy usage.
 * Supporting heading. [Wiki - Heading Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Heading-Usage)
 * Supporting internal links. [Wiki - Internal Links Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Internal-Links-Usage)
 * Supporting extarnal links. [Wiki - Extarnal Links Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/External-Links-Usage)
+* Supporting image(internal & external). [Wiki - Image Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Image-Usage)
 
 ## Contributing
 
