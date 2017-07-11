@@ -75,8 +75,9 @@ module Html2Docx
       if id
         id
       else
-        id = get_latest_external_link_id.delete('rId').to_i + 1
-        @external_links["rId#{id}"] = destination
+        id = get_latest_external_link_id.delete('elId').to_i + 1
+        @external_links["elId#{id}"] = destination
+
         "elId#{id}"
       end
     end
@@ -86,7 +87,7 @@ module Html2Docx
     end
 
     def get_latest_external_link_id
-      @external_links.keys.max || 'rId0'
+      @external_links.keys.max || 'elId0'
     end
 
     def get_uniq_image_id
@@ -99,7 +100,7 @@ module Html2Docx
       current_path = File.join(media_path, image_name)
 
       if real_path.start_with? 'http'
-        request    = Typhoeus::Request.new(path)
+        request    = Typhoeus::Request.new(real_path)
         image_file = File.open(current_path, 'wb+')
 
         request.on_headers do |response|

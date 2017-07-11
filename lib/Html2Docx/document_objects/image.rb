@@ -15,13 +15,17 @@ module Html2Docx
       def add_image(image_object)
         image = get_image_information(image_object)
         drawing_tag = create_drawing_tag
-        anchor_tag = create_anchor_tag
+        inline_tag = create_inline_tag
         doc_pr_tag = create_doc_pr_tag(image)
         graphic_tag = create_graphic_tag(image)
+        extent_tag = create_extent_tag(image)
+        c_nv_graphic_frame_pr = create_c_nv_graphic_frame_pr(image)
 
-        anchor_tag.add_child(doc_pr_tag)
-        anchor_tag.add_child(graphic_tag)
-        drawing_tag.add_child(anchor_tag)
+        inline_tag.add_child(extent_tag)
+        inline_tag.add_child(doc_pr_tag)
+        inline_tag.add_child(c_nv_graphic_frame_pr)
+        inline_tag.add_child(graphic_tag)
+        drawing_tag.add_child(inline_tag)
 
         drawing_tag
       end
@@ -43,17 +47,14 @@ module Html2Docx
         Nokogiri::XML::Node.new('w:drawing', @document)
       end
 
-      def create_anchor_tag
-        anchor_tag = Nokogiri::XML::Node.new('wp:anchor', @document)
-        anchor_tag['allowOverlap'] = 0
-        anchor_tag['behindDoc'] = 0
-        anchor_tag['simplePos'] = 0
+      def create_inline_tag
+        anchor_tag = Nokogiri::XML::Node.new('wp:inline', @document)
 
         anchor_tag
       end
 
       def create_doc_pr_tag(image)
-        doc_pr_tag = Nokogiri::XML::Node.new('w:docPr', @document)
+        doc_pr_tag = Nokogiri::XML::Node.new('wp:docPr', @document)
         doc_pr_tag['id'] = @relation.get_uniq_image_id
         doc_pr_tag['name'] = image[:name]
         doc_pr_tag['title'] = image[:title]
@@ -69,7 +70,6 @@ module Html2Docx
 
       def create_graphic_tag(image)
         graphic_tag = Nokogiri::XML::Node.new('a:graphic', @document)
-        graphic_tag['xmlns:a'] = 'http://schemas.openxmlformats.org/drawingml/2006/main'
 
         graphic_data_tag = create_graphic_data_tag(image)
         graphic_tag.add_child(graphic_data_tag)
@@ -89,7 +89,6 @@ module Html2Docx
 
       def create_pic_tag(image)
         pic_tag = Nokogiri::XML::Node.new('pic:pic', @document)
-        pic_tag['xmlns:pic'] = 'http://schemas.openxmlformats.org/drawingml/2006/picture'
 
         nv_pic_pr_tag = create_nv_pic_pr_tag(image)
         pic_tag.add_child(nv_pic_pr_tag)
@@ -214,6 +213,30 @@ module Html2Docx
 
       def create_av_lst_tag(image)
         Nokogiri::XML::Node.new('a:avLst', @document)
+      end
+
+      def create_extent_tag(image)
+        ext_tag = Nokogiri::XML::Node.new('wp:extent', @document)
+        ext_tag['cx'] = image[:width] * 9525
+        ext_tag['cy'] = image[:height] * 9525
+
+        ext_tag
+      end
+
+      def create_c_nv_graphic_frame_pr(image)
+        c_nv_graphic_frame_pr_tag = Nokogiri::XML::Node.new('wp:cNvGraphicFramePr', @document)
+
+        graphic_frame_locks_tag = create_graphic_frame_locks_tag(image)
+        c_nv_graphic_frame_pr_tag.add_child(graphic_frame_locks_tag)
+
+        c_nv_graphic_frame_pr_tag
+      end
+
+      def create_graphic_frame_locks_tag(image)
+        graphic_frame_locks_tag = Nokogiri::XML::Node.new('a:graphicFrameLocks', @document)
+        graphic_frame_locks_tag['noChangeAspect'] = 1
+
+        graphic_frame_locks_tag
       end
     end
   end
