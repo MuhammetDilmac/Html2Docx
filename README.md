@@ -4,7 +4,7 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
-## Installation
+
 
 Add this line to your application's Gemfile:
 
@@ -30,9 +30,6 @@ Html2Docx has very easy usage.
 * Supporting extarnal links. [Wiki - Extarnal Links Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/External-Links-Usage)
 * Supporting image(internal & external). [Wiki - Image Usage](https://github.com/MuhammetDilmac/Html2Docx/wiki/Image-Usage)
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/MuhammetDilmac/Html2Docx. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
